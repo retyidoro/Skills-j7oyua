@@ -1,0 +1,92 @@
+.container {
+  width: 100px;
+  cursor: pointer;
+  height: 100px;
+  display: flex;
+  position: relative;
+  align-items: center;
+  border-radius: var(--dl-radius-radius-round);
+  flex-direction: column;
+  justify-content: center;
+}
+.container1 {
+  flex: 0 0 auto;
+  width: 85px;
+  height: 85px;
+  display: flex;
+  align-items: center;
+  border-radius: var(--dl-radius-radius-round);
+  flex-direction: column;
+  justify-content: center;
+  background-color: var(--dl-color-gray-white);
+}
+.text {
+  text-align: center;
+}
+.root-class-name {
+  background-color: var(--dl-color-types-blue);
+}
+.root-class-name1 {
+  background-color: #7a5dfd;
+}
+.root-class-name2 {
+  background-image: linear-gradient(135deg, rgb(97, 214, 225) 2.00%,rgb(70, 107, 238) 100.00%);
+}
+.root-class-name3 {
+  background-image: linear-gradient(45deg, rgb(171, 144, 217) 2.00%,rgb(79, 43, 236) 98.00%);
+}
+.root-class-name4 {
+  background-image: linear-gradient(315deg, rgb(169, 62, 215) 3.00%,rgb(232, 167, 225) 96.00%);
+}
+.root-class-name5 {
+  top: 690px;
+  right: 0px;
+  position: absolute;
+  background-color: var(--dl-color-types-pink);
+}
+.root-class-name6 {
+  top: 323px;
+  left: 465px;
+  position: absolute;
+  background-image: linear-gradient(90deg, rgb(97, 214, 225) 2.00%,rgb(70, 107, 238) 37.00%,rgb(70, 107, 238) 68.00%,rgb(79, 43, 236) 100.00%);
+}
+.root-class-name7 {
+  top: -864px;
+  left: 651px;
+  position: absolute;
+  background-image: linear-gradient(45deg, rgb(171, 144, 217) 3.00%,rgb(79, 43, 236) 97.00%);
+}
+.root-class-name8 {
+  top: 447px;
+  left: 295px;
+  position: absolute;
+  background-image: linear-gradient(90deg, rgb(97, 214, 225) 2.00%,rgb(70, 107, 238) 86.00%,rgb(70, 107, 238) 87.00%,rgb(79, 43, 236) 100.00%);
+}
+.root-class-name9 {
+  top: 695px;
+  left: 297px;
+  position: absolute;
+  background-image: linear-gradient(90deg, rgb(97, 214, 225) 2.00%,rgb(70, 107, 238) 86.00%,rgb(70, 107, 238) 87.00%,rgb(79, 43, 236) 100.00%);
+}
+.root-class-name10 {
+  background-color: var(--dl-color-types-pink);
+}
+.root-class-name11 {
+  top: 539px;
+  left: 777px;
+  position: absolute;
+  background-image: linear-gradient(90deg, rgb(97, 214, 225) 2.00%,rgb(70, 107, 238) 37.00%,rgb(70, 107, 238) 68.00%,rgb(79, 43, 236) 100.00%);
+}
+.root-class-name12 {
+  top: -377px;
+  left: 577px;
+  position: absolute;
+  background-image: linear-gradient(45deg, rgb(171, 144, 217) 3.00%,rgb(79, 43, 236) 97.00%);
+}
+.root-class-name13 {
+  top: 310px;
+  right: 131px;
+  position: absolute;
+  background-image: linear-gradient(315deg, rgb(169, 62, 215) 4.00%,rgb(232, 167, 225) 96.00%);
+}
+
