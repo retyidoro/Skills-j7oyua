@@ -2,16 +2,13 @@ import React from 'react'
 
 import PropTypes from 'prop-types'
 
-import projectStyles from '../style.module.css'
-import styles from './circle.module.css'
+import './circle.css'
 
 const Circle = (props) => {
   return (
-    <div className={` ${styles['container']} ${styles[props.rootClassName]} `}>
-      <div className={styles['container1']}>
-        <h1 className={` ${styles['text']} ${projectStyles['event']} `}>
-          {props.event}
-        </h1>
+    <div className={`circle-container ${props.rootClassName} `}>
+      <div className="circle-container1">
+        <h1 className="circle-text event">{props.event}</h1>
       </div>
     </div>
   )
